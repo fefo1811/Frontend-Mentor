@@ -1,0 +1,19 @@
+:root {
+  --bg-color: #D5E1EF;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+/*# sourceMappingURL=global.css.map */

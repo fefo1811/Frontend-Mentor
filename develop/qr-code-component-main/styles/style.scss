@@ -1,0 +1,16 @@
+.main__container {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    border: 1px red solid;
+
+    .qr__container {
+        margin: 0 auto;
+        
+        width: 320px;
+        height: 499px;
+
+        background-color: #fff;
+    }
+}
