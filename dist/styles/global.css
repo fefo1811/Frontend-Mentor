@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 :root {
   --bg-color: #F4D04E;
+  --primary-text-color: #111111;
+  --secondary-text-color: #6b6b6b;
+  --primary-font-family: "Figtree", sans-serif;
 }
 
 * {
@@ -14,6 +18,19 @@ html, body {
 
 body {
   background-color: var(--bg-color);
+  font-family: var(--primary-font-family);
+}
+
+span, h1, small {
+  color: var(--primary-text-color);
+}
+
+span, h1 {
+  font-weight: 900;
+}
+
+p {
+  color: var(--secondary-text-color);
 }
 
 /*# sourceMappingURL=global.css.map */
